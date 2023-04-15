@@ -1,0 +1,27 @@
+.intro {
+    height: calc(100vh - 4rem);
+}
+
+
+
+
+/* Create the circles */
+.circle {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    position: absolute;
+    filter: blur(100px);
+    z-index: -11;
+}
+
+.circle.top-left {
+    top: 120px;
+    left: -100px;
+}
+
+.circle.bottom-right {
+    bottom: 20px;
+    right: -100px;
+}
