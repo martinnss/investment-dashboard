@@ -1,11 +1,22 @@
 .intro {
     height: calc(100vh - 4rem);
+    text-align: center;
+    width: 100%;
+    padding-top: 11%;
+}
+
+.intro > h1 {
+    font-size: 3.5rem;
+    width: 100%;
+}
+.intro > p{
+    font-size: 1.2rem;
+    padding-top: 2.5rem;
 }
 
 
 
-
-/* Create the circles */
+/* circle background */
 .circle {
     width: 300px;
     height: 200px;
@@ -24,4 +35,12 @@
 .circle.bottom-right {
     bottom: 20px;
     right: -100px;
+}
+/* end circle background */
+
+.intro-buttons{
+    margin-top: 3rem;
+}
+.button-primary{
+    margin-right: 1rem;
 }
