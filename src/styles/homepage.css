@@ -2,19 +2,14 @@
     height: calc(100vh - 4rem);
     text-align: center;
     width: 100%;
-    padding-top: 11%;
+    padding-top: 20%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
 }
-
-.intro > h1 {
-    font-size: 3.5rem;
-    width: 100%;
+.title-subtitle{
+    margin-top: 2.5rem;
 }
-.intro > p{
-    font-size: 1.2rem;
-    padding-top: 2.5rem;
-}
-
-
 
 /* circle background */
 .circle {
@@ -29,18 +24,25 @@
 
 .circle.top-left {
     top: 120px;
-    left: -100px;
+    left: 0px;
 }
 
 .circle.bottom-right {
     bottom: 20px;
-    right: -100px;
+    right: 0px;
 }
 /* end circle background */
 
 .intro-buttons{
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 .button-primary{
     margin-right: 1rem;
+}
+
+
+@media (min-width: 800px){
+    .intro {
+        padding-top: 11%;
+    }
 }
