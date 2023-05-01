@@ -1,0 +1,21 @@
+
+.login.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-primary {
+    margin-top: 2rem;
+}
+
+h2 > a{
+    font-size: 4rem;
+    height: 100%;
+}
+
+.already-member{
+    color: grey;
+    font-size: 1rem;
+    margin: 0;
+}

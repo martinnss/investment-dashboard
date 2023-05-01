@@ -4,7 +4,7 @@ import '../styles/cardList.css.scss';
 
 import useGetInvestments from '../hooks/useGetInvestments';     //hacemos import de nuestro Hook
 
-const API= 'https://api.escuelajs.co/api/v1/products'
+const API= '' //Acá debera ir la api creada con django
 
 const CardList = () => {
 	const products=useGetInvestments(API)
